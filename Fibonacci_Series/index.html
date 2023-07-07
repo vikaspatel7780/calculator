@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>fibonacci Series</title>
+    </head>
+
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body {
+    transition: 1s;
+    background-color: aqua;
+}
+
+.main {
+    width: 400px;
+  margin: 200px auto;
+  border: 5px solid #222121;
+  padding: 10px;
+  background-color:rgb(211, 228, 113) ;
+  border-radius: 10px;
+}
+input{
+    height: 25px;
+    width: 200px;
+}
+     </style>
+
+    <body>
+        <div class="main">
+        <h1>Fibonacci Series</h1>
+        <br>
+        <form name="form1" onsubmit="return fun1()">
+            <p>Enter a number to get fibonacci Series</p>
+            <input type="number" name="in1" value="">
+            <br><br>
+            <span>Your Fibonacci Series is : </span>
+            <span id="ans1">0</span>
+            
+            <br><br>
+            <input type="submit" name="sub1">
+        </form>
+    </div>
+    </body>
+    <script src="app.js"></script>
+</html>
