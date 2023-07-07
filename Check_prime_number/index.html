@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>prime number</title>
+    </head>
+    <style>
+        * {
+             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+    body {
+        transition:0;
+     background-color: rgb(166, 194, 63);
+    }
+    
+    .main {
+        width: 400px;
+      margin: 200px auto;
+      border: 5px solid #222121;
+      padding: 10px;
+      background-color:rgba(201, 214, 197, 0.949) ;
+      border-radius: 10px;
+    }
+    input{
+        height: 25px;
+        width: 150px;
+    }
+   
+    </style>
+    <body>
+        <div class="main">
+        <h1>Prime Checker</h1>
+        <br>
+        <form name="form1" onsubmit="return fun1()">
+            <span>Enter a number to check :</span>
+            <input type="number" name="in1" value="">
+            <br><br>
+            <input type="submit" value="Check Prime">
+            <span id="ans1"></span>
+        </form>
+    </div>
+    </body>
+    <script src="app.js"></script>
+</html>

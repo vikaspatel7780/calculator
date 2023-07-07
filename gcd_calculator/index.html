@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCD Calculator</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    transition: 1s;
+ background-color: aqua;
+}
+
+.main {
+    width: 400px;
+  margin: 200px auto;
+  border: 5px solid #222121;
+  padding: 10px;
+  background-color:aquamarine ;
+}
+input{
+    height: 25px;
+    width: 200px;
+}
+ </style>
+
+</head>
+<body>
+    <div class="main">
+    <h1>GCD Calculator</h1>
+    <br>
+    <form action="" name="forms" onsubmit="return fun1()">
+        <span>Enter First Number:</span>
+        <input type="number" name="in1" value="">
+        <br><br>
+        <span>Enter second Number:</span>
+        <input type="number" name="in2" value="">
+        <br><br>
+        <span>Click Here:</span>
+        <input type="submit" value="Calculator" size="20px">
+        <span id="ans1"></span>
+    </form>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
